@@ -59,10 +59,490 @@ header i {
 .thin-text {
   font-family: "Roboto", sans-serif;
   font-size: 10vw;
-  margin-bottom: -11px;
+  margin-bottom: -10px;
+  font-weight: 200;
 }
 
 .hero-bg-text h2 {
   font-size: 14vw;
   font-family: "Archivo Black", sans-serif;
+}
+
+.hero-icons {
+  display: none;
+}
+
+.services {
+  height: 420px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: #e9e1e1;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.container h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+button {
+  background-color: #e71a23;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  display: block;
+}
+
+button:hover {
+  background-color: #910b12;
+  cursor: pointer;
+}
+
+.services-proof {
+  background-color: #fff;
+  margin: 2rem 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 80%;
+}
+
+.card-image {
+  background: url(./assets/billionphotos1882993.jpg) no-repeat;
+  height: 343px;
+  background-position: center;
+}
+
+.card-text {
+  margin: 2rem 0;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  padding: 0 0.5rem;
+}
+
+.card-texts {
+  margin: 0 0 2rem 0;
+  font-family: "Roboto", sans-serif;
+  padding: 0 0.5rem;
+}
+
+.card-image2 {
+  background: url(./assets/billionphotos1883011.jpg) no-repeat;
+  height: 343px;
+  background-position: center;
+}
+
+.card-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.call {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #e71a23;
+}
+
+.quality {
+  background-color: #d8d2d2;
+  padding: 1rem 2rem 1.5rem 2rem;
+}
+
+.quality-image {
+  background: url(./assets/billionphotos1079319min.png) no-repeat;
+  height: 400px;
+  background-size: contain;
+  background-position: center;
+}
+
+.quality-container {
+  margin-top: 100px;
+}
+
+.quality-container > .heading {
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #104e92;
+  padding-bottom: 1rem;
+  border-bottom: 0.5rem solid #e71a23;
+  margin-bottom: 1rem;
+}
+
+.quality-text {
+  margin: 2rem 0 1rem 0;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.our-services {
+  padding: 2.5rem 2rem;
+}
+
+.our-services > h3 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.service > h4 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.service > p {
+  margin: 1rem 0 1rem 0;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.icon-container {
+  background-color: #e71a23;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.icon-container > img {
+  object-fit: contain;
+  fill: #fff;
+}
+
+.about-us {
+  padding: 3rem 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background-color: #104e92;
+}
+
+.about-us h6 {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.about-us h4 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.about-us h5 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.about-us-text {
+  margin-bottom: 2rem;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.images .image {
+  height: 250px;
+}
+
+.images .image1 {
+  background: url(./assets/frg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.images .image2 {
+  background: url(./assets/rg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.images .image3 {
+  background: url(./assets/billionphotos1882993.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.images .image4 {
+  background: url(./assets/billionphotos1882951.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.todo-list {
+  padding: 4rem 2rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.todo-list .heading {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.todo-list .text {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.buttons {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.todo-list button {
+  width: 200px;
+}
+
+.todo-list .call-btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.call-btn:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+/* ///////////////////////////////////////////////////////////////////
+
+                          Table Media Query 
+
+///////////////////////////////////////////////////////////////////// */
+
+@media screen and (min-width: 40em) {
+  header {
+    padding: 1rem 4rem;
+  }
+
+  .hero-content {
+    width: 55%;
+    margin-top: 10rem;
+  }
+  .hero-bg {
+    background: url(./assets/hero-bg.jpg) no-repeat;
+    height: 620px;
+    background-size: cover;
+    background-position: 73%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+
+  .thin-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: -9px;
+    font-weight: 200;
+  }
+
+  .hero-bg-text {
+    color: #fff;
+    border-bottom: 0.5rem solid #fff;
+    padding-bottom: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-bg-text h2 {
+    font-size: 3.6rem;
+    font-family: "Archivo Black", sans-serif;
+  }
+
+  .hero-icons {
+    display: flex;
+    height: 5rem;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .hero-icons .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .icon img {
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .hero-icons h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+  }
+  .container {
+    height: 70%;
+  }
+
+  .services-proof {
+    margin: 4rem 0;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .card-image {
+    background-size: cover;
+    flex-grow: 1;
+  }
+
+  .card-text {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .card-texts {
+    margin: 0 0 2rem 0;
+    font-family: "Roboto", sans-serif;
+    padding: 0 0.5rem;
+  }
+
+  .card-heading {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  .call {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #e71a23;
+  }
+
+  .card-image2 {
+    background-size: cover;
+  }
+
+  .quality {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    padding: 1rem 2.5rem 0 2rem;
+    gap: 1rem;
+  }
+
+  .quality-image {
+    background-size: cover;
+    flex: 0.5;
+    height: 500px;
+  }
+
+  .quality-container {
+    flex: 0.5;
+    margin-bottom: 2rem;
+  }
+
+  .quality-container > .heading {
+    font-size: 3.5rem;
+  }
+
+  .quality-text {
+    font-size: 1.2rem;
+  }
+
+  .service-container {
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-bottom: 2rem;
+  }
+
+  .about-us h6 {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .about-us h4 {
+    font-size: 4rem;
+  }
+
+  .about-us h5 {
+    font-size: 4rem;
+  }
+  .inline {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .about-us-text {
+    padding: 1rem 2rem;
+  }
+
+  .todo-list {
+    padding: 5rem 2rem;
+    gap: 3rem;
+  }
+
+  .buttons {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  footer {
+    text-align: center;
+    background: #333;
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+  }
 }
